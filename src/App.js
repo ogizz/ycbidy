@@ -26,6 +26,7 @@ function App() {
 
         <div>
         <Switch>
+          
           <Route path="/" exact render={() => <Home title={"This is teacher Page"} />} />  
           <Route path="/teachers" render={() => <TeachersPage title={"This is teacher Page"} />} />
           <Route path="/institutes" render={() => <InstitutionsPage title={"This is sajkc Page"} />} />  
